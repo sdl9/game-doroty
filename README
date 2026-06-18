@@ -1,0 +1,252 @@
+```txt
+                                                                                                                        
+                                                                                                                        
+  ,----..                         ____                      ,---,                                     ___               
+ /   /   \                      ,'  , `.                  .'  .' `\                                 ,--.'|_             
+|   :     :                  ,-+-,.' _ |                ,---.'     \    ,---.    __  ,-.   ,---.    |  | :,'            
+.   |  ;. /               ,-+-. ;   , ||                |   |  .`\  |  '   ,'\ ,' ,'/ /|  '   ,'\   :  : ' :            
+.   ; /--`    ,--.--.    ,--.'|'   |  || ,---.          :   : |  '  | /   /   |'  | |' | /   /   |.;__,'  /       .--,  
+;   | ;  __  /       \  |   |  ,', |  |,/     \         |   ' '  ;  :.   ; ,. :|  |   ,'.   ; ,. :|  |   |      /_ ./|  
+|   : |.' .'.--.  .-. | |   | /  | |--'/    /  |        '   | ;  .  |'   | |: :'  :  /  '   | |: ::__,'| :   , ' , ' :  
+.   | '_.' : \__\/: . . |   : |  | ,  .    ' / |        |   | :  |  ''   | .; :|  | '   '   | .; :  '  : |__/___/ \: |  
+'   ; : \  | ," .--.; | |   : |  |/   '   ;   /|        '   : | /  ; |   :    |;  : |   |   :    |  |  | '.'|.  \  ' |  
+'   | '/  .'/  /  ,.  | |   | |`-'    '   |  / |        |   | '` ,/   \   \  / |  , ;    \   \  /   ;  :    ; \  ;   :  
+|   :    / ;  :   .'   \|   ;/        |   :    |        ;   :  .'      `----'   ---'      `----'    |  ,   /   \  \  ;  
+ \   \ .'  |  ,     .-./'---'          \   \  /         |   ,.'                                      ---`-'     :  \  \ 
+  `---`     `--`---'                    `----'          '---'                                                    \  ' ; 
+                                                                                                                  `--`  
+```
+
+> Um pequeno jogo em Python + Pygame criado com carinho, memória e pixel art.
+
+---
+
+## Sobre o jogo
+
+**GAME-DOROTY** é um jogo simples e divertido em que a personagem precisa se movimentar pelo mapa e escapar dos obstáculos durante **60 segundos**.
+
+O projeto foi desenvolvido para a cadeira de **Programação II**, realizada durante o segundo semestre de **2025**, na **Universidade Feevale**.
+
+---
+
+## Sobre o projeto
+
+Este projeto nasceu como uma entrega acadêmica, mas ganhou um significado especial com o tempo.
+
+Doroty foi meu presentinho de quinze anos, esteve ao meu lado na minha adolescência e no início da vida adulta, partindo nos meus 26.
+
+Na época da construção do jogo, ela já estava apresentando os primeiros sinais de doença, que só foram percebidos ao passar dos meses. Tanto que parte da 'brincadeira' do jogo, é sobre as idas dela ao veterinário, que inicialmente pareciam apenas pequenos sustos.
+
+Infelizmente em dezembro de 2025, tivemos a notícia do câncer que estava tomando a sáude dela, fizemos tratamento paliativo e ela continuou conosco por mais dois meses.
+
+Hoje, esse projeto é uma forma de eternizar sua memória e afeto que nossa família e amigos tínhamos por ela.
+
+---
+
+## Vídeo de apresentação
+
+Na época da entrega acadêmica, gravei um vídeo apresentando e explicando o funcionamento do jogo.
+
+▶ **Assista aqui:**
+https://youtu.be/PG4gKpCtUQo
+
+---
+
+## Como jogar
+
+O objetivo é simples:
+
+* controlar a personagem pelo cenário;
+* desviar das comidas e obstáculos;
+* sobreviver até o tempo acabar;
+* tentar chegar ao final da partida sem colisões.
+
+---
+
+## Tecnologias utilizadas
+
+* **Python**
+* **Pygame**
+* **Pixel Art**
+* **Programação orientada a objetos**
+
+---
+
+## Estrutura do projeto
+
+```txt
+game-doroty/
+│
+├── assets/              # Imagens, sons, fontes e elementos visuais do jogo
+│
+├── Game.py              # Arquivo principal do jogo
+├── Player.py            # Classe da personagem
+├── Obstacle.py          # Classe dos obstáculos
+├── ScreenManager.py     # Gerenciamento de telas
+├── SoundManager.py      # Gerenciamento de sons
+│
+└── README.md
+```
+
+---
+
+## Como rodar o projeto
+
+Antes de começar, tenha o **Python** instalado na sua máquina.
+
+Para este projeto, recomendo usar **Python 3.12** ou **Python 3.13**, pois versões muito recentes podem apresentar problemas na instalação do Pygame.
+
+---
+
+## 1. Clone o repositório
+
+```bash
+git clone https://github.com/sdl9/game-doroty.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd game-doroty
+```
+
+---
+
+## Rodando no Windows
+
+Crie o ambiente virtual:
+
+```powershell
+py -3.13 -m venv .venv
+```
+
+Ative o ambiente virtual:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+Após ativar, o terminal deve ficar parecido com isto:
+
+```powershell
+(.venv) PS C:\...\game-doroty>
+```
+
+Instale as dependências:
+
+```powershell
+python -m pip install --upgrade pip
+python -m pip install pygame
+```
+
+Execute o jogo:
+
+```powershell
+python Game.py
+```
+
+---
+
+## Rodando no Linux ou macOS
+
+Crie o ambiente virtual:
+
+```bash
+python3 -m venv .venv
+```
+
+Ative o ambiente virtual:
+
+```bash
+source .venv/bin/activate
+```
+
+Instale as dependências:
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install pygame
+```
+
+Execute o jogo:
+
+```bash
+python Game.py
+```
+
+---
+
+## Dependências
+
+Este projeto utiliza a biblioteca **Pygame**.
+
+Caso o projeto tenha um arquivo `requirements.txt`, você também pode instalar as dependências com:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Conteúdo sugerido para o `requirements.txt`:
+
+```txt
+pygame==2.6.1
+```
+
+---
+
+## Possíveis problemas
+
+### Erro: `ModuleNotFoundError: No module named 'pygame'`
+
+Esse erro significa que o Pygame não foi instalado no ambiente atual.
+
+Resolva com:
+
+```bash
+python -m pip install pygame
+```
+
+---
+
+### Erro ao instalar o Pygame no Windows
+
+Caso o Pygame tente compilar em vez de instalar normalmente, verifique a versão do Python:
+
+```bash
+python --version
+```
+
+Se estiver usando uma versão muito recente, como Python 3.14, prefira instalar e usar Python **3.12** ou **3.13**.
+
+Depois disso, recrie o ambiente virtual e instale o Pygame novamente.
+
+---
+
+### Erro dizendo que não encontrou arquivos da pasta `assets`
+
+Execute o jogo sempre de dentro da pasta principal do projeto:
+
+```bash
+cd game-doroty
+python Game.py
+```
+
+O jogo depende dos arquivos visuais e sonoros presentes na pasta `assets`.
+
+---
+
+## Créditos das artes
+
+As imagens e frames em pixel art foram gerados com auxílio do site **PixelLab**:
+
+https://www.pixellab.ai/
+
+Depois, os materiais foram refinados com apoio do **ChatGPT**, mantendo a proposta visual do jogo e a identidade da personagem.
+
+---
+
+## 👩‍💻 Autora
+
+Desenvolvido por **Laíssa Dornelles Salles**.
+
+GitHub: https://github.com/sdl9

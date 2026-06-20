@@ -1,10 +1,8 @@
-```
- <p align="center">
+<p align="center">
   <img src="assets/gifs/menu.gif" width="640" alt="Menu inicial do Game Doroty">
 </p>
-```
 
-> um pequeno jogo em python + pygame criado com carinho, memória e pixel art.
+> Um pequeno jogo em Python + Pygame criado com carinho, memória e pixel art.
 
 ---
 

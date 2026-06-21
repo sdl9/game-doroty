@@ -20,6 +20,10 @@ hoje, esse projeto é uma forma de eternizar a sua memória e afeto.
 
 ---
 
+<p align="center">
+  <img src="assets/gifs/gameplay.gif" width="640" alt="Gameplay do Game Doroty">
+</p>
+
 ## o jogo
 
 **passeio com a doroty** é um jogo de sobrevivência em que você controla a personagem pelo cenário e precisa escapar de comidas e obstáculos durante **60 segundos**.

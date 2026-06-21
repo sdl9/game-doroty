@@ -64,6 +64,10 @@ game-doroty/
 
 ---
 
+<p align="center">
+  <img src="assets/gifs/vitoria.gif" width="640" alt="Tela de vitória do Game Doroty">
+</p>
+
 ## como rodar
 
 recomendo **Python 3.12** ou **3.13**, versões mais recentes podem ter problemas com o Pygame.
@@ -117,6 +121,10 @@ pygame==2.6.1
 
 ---
 
+<p align="center">
+  <img src="assets/gifs/derrota.gif" width="640" alt="Tela de derrota do Game Doroty">
+</p>
+
 ## problemas comuns
 
 **`ModuleNotFoundError: No module named 'pygame'`**
@@ -156,4 +164,9 @@ as artes em pixel art foram geradas com o **PixelLab** (https://www.pixellab.ai)
 ## autora
 
 **laíssa dornelles salles**
+
+<p align="center">
+  <img src="assets/gifs/foto.jpg" width="640" alt="Foto Doroty">
+</p>
+
 https://github.com/sdl9

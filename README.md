@@ -75,8 +75,8 @@ recomendo **Python 3.12** ou **3.13**, versões mais recentes podem ter problema
 **clone o repositório**
 
 ```bash
-git clone https://github.com/sdl9/game-doroty.git
-cd game-doroty
+git clone https://github.com/sdl9/passeio-com-a-doroty.git
+cd passeio-com-a-doroty
 ```
 
 ---
@@ -149,7 +149,7 @@ python --version
 execute o jogo sempre de dentro da pasta principal do projeto.
 
 ```bash
-cd game-doroty
+cd passeio-com-a-doroty
 python Game.py
 ```
 
